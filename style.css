@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    color: white;
+    font-family: Arial, sans-serif; /* Use your preferred font */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT64THcFeLh-qaEjEFIzl73DUHqr-iUMeGXFlWyukQeMfEqm8SqBTPYHKLxDyUCMb0wLWw&usqp=CAU');
+    background-size: cover; /* Cover the entire body background */
+    background-position: center; /* Center the background image */
+}
+
+.navbar {
+    background-color: white; /* Background color of the navbar */
+    border-bottom: 2px solid #333; /* Border line below the navbar */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px; /* Adjust height of the navbar */
+}
+
+.navbar-logo {
+    color: black; /* Text color for logo */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em; /* Adjust as needed */
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 15px; /* Adjust spacing between links */
+}
+
+.navbar-links li a {
+    color: black; /* Text color for links */
+    text-decoration: none;
+    font-size: 1.1em; /* Adjust as needed */
+}
+
+.image-section {
+    text-align: center; /* Center-align the image */
+    margin-top: 20px; /* Add top margin for spacing */
+}
